@@ -1,0 +1,136 @@
+.bg {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+}
+.webLogo {
+  width: 200px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.userCont {
+  background-color: #5763a5;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  margin-bottom: 20px;
+}
+.userInputs {
+  background-color: #454f84;
+  border-radius: 6px;
+  padding: 10px;
+  width: 50%;
+}
+.userHead {
+  color: white;
+  font-size: 16px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.inputs {
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.inputIcon {
+  width: 20px;
+  height: 20px;
+}
+.inputBar {
+  width: 100%;
+  height: 20px;
+  padding: 4px;
+}
+.btnAlign {
+  text-align: right;
+}
+.btnPrimary {
+  background-color: blue;
+  color: white;
+  padding: 6px;
+  border-radius: 4px;
+  width: 100px;
+  border-width: 0px;
+}
+.userImg {
+  width: 40%;
+}
+.saved {
+  padding: 20px;
+  background-color: #454f84;
+  border-radius: 10px;
+  min-height: 40%;
+}
+.savedHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.countHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+}
+.count {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  width: 30px;
+  height: 20px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  padding: 2px;
+}
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}
+.searchBar {
+  height: 20px;
+  padding: 4px;
+}
+.checkBoxSec {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.checkBoxCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.emptyImg {
+  width: 50%;
+}
